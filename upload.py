@@ -4,7 +4,7 @@ from google import genai
 
 
 client = genai.Client()
-FILE_SEARCH_STORE_NAME = "fileSearchStores/oyster-nmld1veorljm"
+FILE_SEARCH_STORE_NAME = "fileSearchStores/oyster-bqyx5yps5cij"
 FILES = [
     {
         "display_name": "The Role of Water Temperature in Hard Clam Aquaculture",
@@ -23,7 +23,7 @@ def main():
             file=file["file"],
             file_search_store_name=FILE_SEARCH_STORE_NAME,
             config={
-                "display_name": f"{file['display_name']}<{file['url']}>",
+                "display_name": f"{file['display_name']}|{file['url']}",
             },
         )
         while not operation.done:

@@ -4,17 +4,47 @@ from google import genai
 
 
 client = genai.Client()
-FILE_SEARCH_STORE_NAME = "fileSearchStores/oyster-bqyx5yps5cij"
+FILE_SEARCH_STORE_NAME = "fileSearchStores/oyster-ge1jsz2g0cl0"
 FILES = [
     {
-        "display_name": "The Role of Water Temperature in Hard Clam Aquaculture",
-        "file": "data/FA151.pdf",
-        "url": "https://edis.ifas.ufl.edu/publication/FA151",
+        "display_name": "Introduction to Vibrio vulnificus",
+        "file": "data/cn-intro.pdf",
+        "url": "https://marexgasg.wixsite.com/safeoysters/cn-intro",
     },
     {
-        "display_name": "The Role of Dissolved Oxygen in Hard Clam Aquaculture",
-        "file": "data/FA152.pdf",
-        "url": "https://edis.ifas.ufl.edu/publication/FA152",
+        "display_name": "Safely Buying Raw Oysters and Other Molluscan Shellfish",
+        "file": "data/cn-buying.pdf",
+        "url": "https://marexgasg.wixsite.com/safeoysters/cn-buying",
+    },
+    {
+        "display_name": "Safely Storing Oysters and Other Molluscan Shellfish",
+        "file": "data/cn-storing.pdf",
+        "url": "https://marexgasg.wixsite.com/safeoysters/cn-storing",
+    },
+    {
+        "display_name": "Safely Cooking Oysters and Other Molluscan Shellfish",
+        "file": "data/cn-cooking.pdf",
+        "url": "https://marexgasg.wixsite.com/safeoysters/cn-cooking",
+    },
+    {
+        "display_name": "Safely Eating Oysters and Other Molluscan Shellfish",
+        "file": "data/copy-of-cooking.pdf",
+        "url": "https://marexgasg.wixsite.com/safeoysters/copy-of-cooking",
+    },
+    {
+        "display_name": "Georgia Oyster Recipes - UGA Marine Extension and Georgia Sea Grant",
+        "file": "data/ga-recipes.pdf",
+        "url": "https://04a669dc-12bf-4b88-83c6-6687cf4c2223.filesusr.com/ugd/9d071d_ea71fe84309548039d280a0d984332b1.pdf",
+    },
+    {
+        "display_name": "Mississippi Oyster Recipes - Mississippi Dept. of Marine Resources",
+        "file": "data/ms-recipes.pdf",
+        "url": "https://04a669dc-12bf-4b88-83c6-6687cf4c2223.filesusr.com/ugd/9d071d_5d6d8b06b1a7462bbc44cc96615a5d14.pdf",
+    },
+    {
+        "display_name": "Post-Harvest Processed (PHP) Oysters",
+        "file": "data/cn-php.pdf",
+        "url": "https://marexgasg.wixsite.com/safeoysters/cn-php",
     },
 ]
 def main():

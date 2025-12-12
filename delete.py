@@ -3,7 +3,7 @@ from google import genai
 
 client = genai.Client()
 
-FILE_SEARCH_STORE_NAME = "fileSearchStores/oyster-bqyx5yps5cij"
+FILE_SEARCH_STORE_NAME = "fileSearchStores/oyster-ge1jsz2g0cl0"
 
 def main():
     client.file_search_stores.delete(name=FILE_SEARCH_STORE_NAME, config={"force": True})
